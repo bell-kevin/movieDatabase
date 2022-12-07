@@ -1,5 +1,8 @@
 # movies-genres-people.sql
-movies-genres-people.sql
+
+SELECT m.movie_title, m.director, m.year, genre_title FROM movies AS m, genres AS g WHERE m.genre_id = g.genre_id;
+
+![bad-form](https://github.com/bell-kevin/movies-genres-people.sql/blob/main/prof1.PNG)
 
 == We're Using GitHub Under Protest ==
 
