@@ -1,5 +1,7 @@
 # movies-genres-people.sql
 
+Bad form, but it gets the job done:
+
 SELECT m.movie_title, m.director, m.year, genre_title FROM movies AS m, genres AS g WHERE m.genre_id = g.genre_id;
 
 ![bad-form](https://github.com/bell-kevin/movies-genres-people.sql/blob/main/prof1.PNG)
