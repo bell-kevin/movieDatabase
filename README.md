@@ -52,6 +52,8 @@ ON
 WHERE
 
     YEAR > 2006;
+    
+![p](https://github.com/bell-kevin/movieDatabasePractice/blob/main/prof3.PNG)
 
 == We're Using GitHub Under Protest ==
 
