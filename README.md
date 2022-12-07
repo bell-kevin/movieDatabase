@@ -1,6 +1,6 @@
 # movieDatabasePractice
 
-movies-genres-people.sql
+Data from movies-genres-people.sql
 
 Based off of video: https://piped.kavin.rocks/watch?v=l1Nk8irDJu4
 
