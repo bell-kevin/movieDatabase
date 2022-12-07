@@ -10,6 +10,19 @@ SELECT m.movie_title, m.director, m.year, genre_title FROM movies AS m, genres A
 
 ![bad-form](https://github.com/bell-kevin/movies-genres-people.sql/blob/main/prof1.PNG)
 
+SELECT
+    m.movie_title,
+    m.director,
+    m.year,
+    genre_title
+FROM
+    movies AS m
+INNER JOIN genres AS g
+ON
+    m.genre_id = g.genre_id;
+    
+![correct](https://github.com/bell-kevin/movieDatabasePractice/blob/main/prof2.PNG)
+
 == We're Using GitHub Under Protest ==
 
 This project is currently hosted on GitHub.  This is not ideal; GitHub is a
