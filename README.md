@@ -55,6 +55,32 @@ WHERE
     
 ![p](https://github.com/bell-kevin/movieDatabasePractice/blob/main/prof3.PNG)
 
+SELECT
+
+    m.movie_title,
+    m.director,
+    m.year,
+    genre_title
+    
+FROM
+    movies AS m
+    
+INNER JOIN genres AS g
+
+ON
+
+    m.genre_id = g.genre_id
+    
+WHERE
+
+    YEAR > 2006
+    
+ORDER BY
+
+    YEAR ASC;
+    
+![p](https://github.com/bell-kevin/movieDatabasePractice/blob/main/prof4.PNG)
+
 == We're Using GitHub Under Protest ==
 
 This project is currently hosted on GitHub.  This is not ideal; GitHub is a
