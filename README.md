@@ -4,7 +4,7 @@ Data from movies-genres-people.sql
 
 Based off of video: https://piped.kavin.rocks/watch?v=l1Nk8irDJu4
 
-Bad form, but it gets the job done:
+Bad practice, but it gets the job done:
 
 SELECT m.movie_title, m.director, m.year, genre_title FROM movies AS m, genres AS g WHERE m.genre_id = g.genre_id;
 
