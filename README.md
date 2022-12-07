@@ -1,4 +1,4 @@
-#movieDatabasePractice
+# movieDatabasePractice
 
 movies-genres-people.sql
 
