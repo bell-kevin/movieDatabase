@@ -2,7 +2,7 @@
 
 Data from movies-genres-people.sql
 
-Based off of video: https://piped.kavin.rocks/watch?v=l1Nk8irDJu4
+Based off of video: https://piped.tokhmi.xyz/watch?v=l1Nk8irDJu4
 
 Bad practice, but it gets the job done:
 
