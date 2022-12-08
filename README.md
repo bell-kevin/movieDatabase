@@ -29,7 +29,9 @@ INNER JOIN genres AS g
 ON
 
     m.genre_id = g.genre_id;
-    
+ 
+ Better way to do it:
+ 
 ![correct](https://github.com/bell-kevin/movieDatabasePractice/blob/main/prof2.PNG)
 
 SELECT
